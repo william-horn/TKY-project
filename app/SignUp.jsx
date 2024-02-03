@@ -72,7 +72,10 @@ const SignUp = function({
 
       {
         usedEmail === "used"
-          ? <Text textSize="md" className="text-center text-green-500 mb-8">Your email has been submitted!</Text>    
+          ? <div>
+              <Text textSize="md" className="text-center text-green-500">Your email has been submitted!</Text>
+              <Text textSize="md" className="text-center text-stone-600 mb-8">If you entered the wrong email, or you'd like to change your email, please email us at: <a href="mailto:5ActsTheKingInYellow@gmail.com" className="underline">5ActsTheKingInYellow@gmail.com</a></Text>
+            </div>    
           : <div className="mb-8"></div>
       }
 
