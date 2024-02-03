@@ -41,24 +41,25 @@ const HomePage = function() {
       <Content span="max">
 
         <Content span="md" className="mx-auto  flex flex-col items-center pt-3">
-          <div className="relative w-[896px] h-[500px] mb-8 max-w-[100%]">
+          <div className="relative md:w-[896px] md:h-[500px] mb-8 max-w-[100%] w-[448px] h-[250px]">
             <Image
             fill
             alt=""
             src="/images/banner-img.jpg"
             sizes="1200px"
+            className=""
             />
           </div>
 
-          <Text textSize="2xl" className="font-special text-yellow-500 mb-2">5 ACTS: THE KING IN YELLOW RPG ... AND BEYOND!</Text>
-          <Text textSize="xl" className="font-special text-yellow-500 mb-5">BY NILHEMOTH GAMES</Text>
-          <Text textSize="2xl" className="font-special text-yellow-500 mb-10">FOLLOW THE GAME FOR EXCLUSIVE BONUS CONTENT!</Text>
+          <Text textSize="2xl" className="text-center font-special text-yellow-500 mb-2">5 ACTS: THE KING IN YELLOW RPG ... AND BEYOND!</Text>
+          <Text textSize="xl" className="text-center font-special text-yellow-500 mb-5">BY NILHEMOTH GAMES</Text>
+          <Text textSize="2xl" className="text-center font-special text-yellow-500 mb-10">FOLLOW THE GAME FOR EXCLUSIVE BONUS CONTENT!</Text>
 
-          <Text textSize="md" className="font-special text-yellow-500 mb-3 font-bold">GET PROJECT NEWS AND UPDATES BY PROVIDING YOUR EMAIL</Text>
+          <Text textSize="md" className="text-center font-special text-yellow-500 mb-3 font-bold">GET PROJECT NEWS AND UPDATES BY PROVIDING YOUR EMAIL</Text>
 
           <SignUp postEmail={postEmail} countEmails={getEmailCount}/>
 
-          <div className="relative w-[896px] h-[500px] mb-8 max-w-[100%]">
+          <div className="relative md:w-[896px] md:h-[500px] mb-8 max-w-[100%] w-[448px] h-[250px]">
             <Image
             fill
             alt=""
